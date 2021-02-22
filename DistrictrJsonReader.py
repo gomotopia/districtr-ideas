@@ -129,13 +129,13 @@ class DistrictrJson:
             partDict["id"] = part
             partDict["displayNumber"] = part+1
             if (ordinal):
-                partDict["name"] = f"{Ordinal(part+1)} {self.unit}"
+                partDict["name"] = f"{Ordinal(part+1)} {self._unit}"
             elif (custom):
                 partDict["name"] = custom[part]
             else:
-                partDict["name"] = f"{self.unit} {part}"
+                partDict["name"] = f"{self._unit} {part}"
             newParts.append(partDict)
-        self.data["parts"] = newParts
+        self._data["parts"] = newParts
     
     def write(self, outfile):
         '''
@@ -159,8 +159,6 @@ class DistrictrJson:
         with open(outfile, 'w') as outf:
             json.dump(datawrite, outf)
 
-def main():
-    # Write Tests Here
-    
 if __name__ == "__main__":
-    main()
+    #Write Tests Here
+    pass

@@ -19,7 +19,7 @@ comparisons, and not local parochial or municipal juristictions.
 from DistrictrJsonReader import DistrictrJson
 import re
 
-if __name__ == "__main__":
+def Wards():
     WardsObject = DistrictrJson(
                         "Wards of New Orleans",
                         "Ward",
@@ -33,4 +33,7 @@ if __name__ == "__main__":
     newAssignment = {x:int(re.search("(?<=Orleans, )\d\d", x).group())-1 for x in list(wardstrings)}  
     
     WardsObject.setAssignment(newAssignment)
-    WardsObject.write('Wards-Test1.jsonraw')
+    WardsObject.write('Orleans-LA-Wards.jsonraw')
+    
+if __name__ == "__main__":
+    Wards()
