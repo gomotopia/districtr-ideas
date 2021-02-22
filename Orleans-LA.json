@@ -1,0 +1,853 @@
+{
+	"assignment": {
+		"Orleans, 09 40A": 0,
+		"Orleans, 09 44I": 0,
+		"Orleans, 09 42C": 0,
+		"Orleans, 09 43A": 0,
+		"Orleans, 09 43F": 0,
+		"Orleans, 09 43I": 0,
+		"Orleans, 09 43G": 0,
+		"Orleans, 09 42": 0,
+		"Orleans, 09 33": 0,
+		"Orleans, 09 34A": 0,
+		"Orleans, 09 43B": 0,
+		"Orleans, 09 35": 0,
+		"Orleans, 09 35A": 0,
+		"Orleans, 09 06": 0,
+		"Orleans, 09 05": 0,
+		"Orleans, 09 04": 0,
+		"Orleans, 09 03": 0,
+		"Orleans, 09 01": 0,
+		"Orleans, 15 15A": 0,
+		"Orleans, 15 14": 0,
+		"Orleans, 15 14D": 0,
+		"Orleans, 15 14A": 0,
+		"Orleans, 15 14F": 0,
+		"Orleans, 15 14B": 0,
+		"Orleans, 15 17B": 0,
+		"Orleans, 15 14C": 0,
+		"Orleans, 15 17A": 0,
+		"Orleans, 15 18": 0,
+		"Orleans, 15 14G": 0,
+		"Orleans, 15 18A": 0,
+		"Orleans, 15 18E": 0,
+		"Orleans, 09 44O": 0,
+		"Orleans, 09 43K": 0,
+		"Orleans, 09 43J": 0,
+		"Orleans, 09 43E": 0,
+		"Orleans, 09 44A": 0,
+		"Orleans, 09 43L": 0,
+		"Orleans, 09 44B": 0,
+		"Orleans, 09 43M": 0,
+		"Orleans, 09 43H": 0,
+		"Orleans, 09 44": 0,
+		"Orleans, 09 44D": 0,
+		"Orleans, 09 44E": 0,
+		"Orleans, 09 44Q": 0,
+		"Orleans, 09 44J": 0,
+		"Orleans, 09 44L": 0,
+		"Orleans, 09 44M": 0,
+		"Orleans, 09 43C": 0,
+		"Orleans, 09 36B": 0,
+		"Orleans, 09 36": 0,
+		"Orleans, 09 43N": 0,
+		"Orleans, 09 37": 0,
+		"Orleans, 09 38A": 0,
+		"Orleans, 09 32": 0,
+		"Orleans, 09 39": 0,
+		"Orleans, 09 39B": 0,
+		"Orleans, 09 38": 0,
+		"Orleans, 09 40": 0,
+		"Orleans, 09 44F": 0,
+		"Orleans, 09 44G": 0,
+		"Orleans, 09 44N": 0,
+		"Orleans, 09 44P": 0,
+		"Orleans, 09 41": 0,
+		"Orleans, 09 41A": 0,
+		"Orleans, 09 41D": 0,
+		"Orleans, 09 40C": 0,
+		"Orleans, 09 41B": 0,
+		"Orleans, 09 41C": 0,
+		"Orleans, 09 45": 0,
+		"Orleans, 15 15B": 0,
+		"Orleans, 15 17": 0,
+		"Orleans, 15 16": 0,
+		"Orleans, 15 19": 0,
+		"Orleans, 15 19B": 0,
+		"Orleans, 15 18C": 0,
+		"Orleans, 15 18B": 0,
+		"Orleans, 15 18F": 0,
+		"Orleans, 15 18D": 0,
+		"Orleans, 15 19C": 0,
+		"Orleans, 15 19A": 0,
+		"Orleans, 09 45A": 0,
+		"Orleans, 04 22": 0,
+		"Orleans, 17 20": 0,
+		"Orleans, 04 21": 0,
+		"Orleans, 17 19": 0,
+		"Orleans, 04 20": 0,
+		"Orleans, 17 18A": 0,
+		"Orleans, 04 15": 0,
+		"Orleans, 04 23": 0,
+		"Orleans, 04 18": 0,
+		"Orleans, 05 18": 0,
+		"Orleans, 05 17": 0,
+		"Orleans, 04 17": 0,
+		"Orleans, 04 17A": 0,
+		"Orleans, 04 14": 0,
+		"Orleans, 05 16": 0,
+		"Orleans, 07 41": 0,
+		"Orleans, 07 32": 0,
+		"Orleans, 07 42": 0,
+		"Orleans, 07 37A": 0,
+		"Orleans, 07 40": 0,
+		"Orleans, 07 30": 0,
+		"Orleans, 07 28": 0,
+		"Orleans, 07 19": 0,
+		"Orleans, 07 27": 0,
+		"Orleans, 07 28A": 0,
+		"Orleans, 07 33": 0,
+		"Orleans, 07 25": 0,
+		"Orleans, 07 29": 0,
+		"Orleans, 07 27B": 0,
+		"Orleans, 07 26": 0,
+		"Orleans, 08 28": 0,
+		"Orleans, 07 37": 0,
+		"Orleans, 07 35": 0,
+		"Orleans, 08 30": 0,
+		"Orleans, 08 27": 0,
+		"Orleans, 08 26": 0,
+		"Orleans, 07 25A": 0,
+		"Orleans, 08 22": 0,
+		"Orleans, 07 24": 0,
+		"Orleans, 08 25": 0,
+		"Orleans, 08 23": 0,
+		"Orleans, 08 21": 0,
+		"Orleans, 08 24": 0,
+		"Orleans, 08 20": 0,
+		"Orleans, 08 19": 0,
+		"Orleans, 08 15": 0,
+		"Orleans, 09 31D": 0,
+		"Orleans, 09 31B": 0,
+		"Orleans, 09 31A": 0,
+		"Orleans, 09 30A": 0,
+		"Orleans, 09 30": 0,
+		"Orleans, 09 29": 0,
+		"Orleans, 09 31": 0,
+		"Orleans, 17 02": 0,
+		"Orleans, 17 01": 0,
+		"Orleans, 16 01A": 0,
+		"Orleans, 16 01": 0,
+		"Orleans, 17 18": 0,
+		"Orleans, 04 11": 0,
+		"Orleans, 17 17": 0,
+		"Orleans, 17 15": 0,
+		"Orleans, 17 13A": 0,
+		"Orleans, 17 11": 0,
+		"Orleans, 17 09": 0,
+		"Orleans, 17 06": 0,
+		"Orleans, 17 07": 0,
+		"Orleans, 17 08": 0,
+		"Orleans, 17 13": 0,
+		"Orleans, 17 16": 0,
+		"Orleans, 17 14": 0,
+		"Orleans, 17 10": 0,
+		"Orleans, 17 12": 0,
+		"Orleans, 16 08": 0,
+		"Orleans, 16 09": 0,
+		"Orleans, 04 09": 0,
+		"Orleans, 04 08": 0,
+		"Orleans, 03 20": 0,
+		"Orleans, 03 19": 0,
+		"Orleans, 04 07": 0,
+		"Orleans, 05 15": 0,
+		"Orleans, 05 12": 0,
+		"Orleans, 05 13": 0,
+		"Orleans, 05 11": 0,
+		"Orleans, 03 18": 0,
+		"Orleans, 03 14": 0,
+		"Orleans, 03 15": 0,
+		"Orleans, 14 26": 0,
+		"Orleans, 02 07": 0,
+		"Orleans, 04 06": 0,
+		"Orleans, 03 12": 0,
+		"Orleans, 04 05": 0,
+		"Orleans, 03 09": 0,
+		"Orleans, 03 08": 0,
+		"Orleans, 17 03": 0,
+		"Orleans, 17 05": 0,
+		"Orleans, 17 04": 0,
+		"Orleans, 16 04": 0,
+		"Orleans, 16 06": 0,
+		"Orleans, 16 05": 0,
+		"Orleans, 16 02": 0,
+		"Orleans, 16 03": 0,
+		"Orleans, 14 12": 0,
+		"Orleans, 14 13A": 0,
+		"Orleans, 16 07": 0,
+		"Orleans, 14 19": 0,
+		"Orleans, 14 18A": 0,
+		"Orleans, 14 25": 0,
+		"Orleans, 14 21": 0,
+		"Orleans, 14 17": 0,
+		"Orleans, 14 16": 0,
+		"Orleans, 14 11": 0,
+		"Orleans, 14 09": 0,
+		"Orleans, 14 10": 0,
+		"Orleans, 14 04": 0,
+		"Orleans, 14 08": 0,
+		"Orleans, 14 14": 0,
+		"Orleans, 14 07": 0,
+		"Orleans, 14 15": 0,
+		"Orleans, 13 12": 0,
+		"Orleans, 13 10": 0,
+		"Orleans, 14 05": 0,
+		"Orleans, 14 06": 0,
+		"Orleans, 14 01": 0,
+		"Orleans, 13 08": 0,
+		"Orleans, 13 06": 0,
+		"Orleans, 13 04": 0,
+		"Orleans, 13 02": 0,
+		"Orleans, 14 24A": 0,
+		"Orleans, 14 20": 0,
+		"Orleans, 13 16": 0,
+		"Orleans, 14 23": 0,
+		"Orleans, 12 19": 0,
+		"Orleans, 13 15": 0,
+		"Orleans, 13 14": 0,
+		"Orleans, 12 17": 0,
+		"Orleans, 12 16": 0,
+		"Orleans, 11 17": 0,
+		"Orleans, 02 06": 0,
+		"Orleans, 10 14": 0,
+		"Orleans, 11 14": 0,
+		"Orleans, 11 13": 0,
+		"Orleans, 13 13": 0,
+		"Orleans, 13 11": 0,
+		"Orleans, 13 09": 0,
+		"Orleans, 12 14": 0,
+		"Orleans, 12 10": 0,
+		"Orleans, 13 07": 0,
+		"Orleans, 13 05": 0,
+		"Orleans, 13 03": 0,
+		"Orleans, 12 12": 0,
+		"Orleans, 12 11": 0,
+		"Orleans, 12 13": 0,
+		"Orleans, 12 09": 0,
+		"Orleans, 12 08": 0,
+		"Orleans, 11 12": 0,
+		"Orleans, 11 11": 0,
+		"Orleans, 12 06": 0,
+		"Orleans, 12 07": 0,
+		"Orleans, 12 03": 0,
+		"Orleans, 12 05": 0,
+		"Orleans, 12 02": 0,
+		"Orleans, 12 01": 0,
+		"Orleans, 14 03": 0,
+		"Orleans, 14 02": 0,
+		"Orleans, 13 01": 0,
+		"Orleans, 12 04": 0,
+		"Orleans, 07 18": 0,
+		"Orleans, 06 09": 0,
+		"Orleans, 07 17": 0,
+		"Orleans, 06 08": 0,
+		"Orleans, 07 12": 0,
+		"Orleans, 07 16": 0,
+		"Orleans, 07 21": 0,
+		"Orleans, 07 15": 0,
+		"Orleans, 07 14": 0,
+		"Orleans, 07 13": 0,
+		"Orleans, 07 20": 0,
+		"Orleans, 07 11": 0,
+		"Orleans, 07 10": 0,
+		"Orleans, 05 10": 0,
+		"Orleans, 05 09": 0,
+		"Orleans, 05 08": 0,
+		"Orleans, 06 07": 0,
+		"Orleans, 05 07": 0,
+		"Orleans, 04 03": 0,
+		"Orleans, 06 06": 0,
+		"Orleans, 05 05": 0,
+		"Orleans, 07 06": 0,
+		"Orleans, 06 04": 0,
+		"Orleans, 05 03": 0,
+		"Orleans, 05 02": 0,
+		"Orleans, 07 23": 0,
+		"Orleans, 07 09A": 0,
+		"Orleans, 07 08": 0,
+		"Orleans, 07 07": 0,
+		"Orleans, 08 13": 0,
+		"Orleans, 08 14": 0,
+		"Orleans, 08 09": 0,
+		"Orleans, 08 08": 0,
+		"Orleans, 08 07": 0,
+		"Orleans, 08 12": 0,
+		"Orleans, 07 05": 0,
+		"Orleans, 07 02": 0,
+		"Orleans, 07 04": 0,
+		"Orleans, 07 01": 0,
+		"Orleans, 06 02": 0,
+		"Orleans, 05 01": 0,
+		"Orleans, 06 01": 0,
+		"Orleans, 08 06": 0,
+		"Orleans, 08 04": 0,
+		"Orleans, 08 02": 0,
+		"Orleans, 09 14": 0,
+		"Orleans, 08 01": 0,
+		"Orleans, 09 13": 0,
+		"Orleans, 15 03": 0,
+		"Orleans, 02 04": 0,
+		"Orleans, 10 13": 0,
+		"Orleans, 10 12": 0,
+		"Orleans, 01 06": 0,
+		"Orleans, 10 11": 0,
+		"Orleans, 03 01": 0,
+		"Orleans, 04 02": 0,
+		"Orleans, 02 02": 0,
+		"Orleans, 01 05": 0,
+		"Orleans, 11 10": 0,
+		"Orleans, 11 08": 0,
+		"Orleans, 11 09": 0,
+		"Orleans, 10 09": 0,
+		"Orleans, 10 08": 0,
+		"Orleans, 11 05": 0,
+		"Orleans, 11 03": 0,
+		"Orleans, 11 04": 0,
+		"Orleans, 11 02": 0,
+		"Orleans, 10 07": 0,
+		"Orleans, 01 02": 0,
+		"Orleans, 10 06": 0,
+		"Orleans, 10 03": 0,
+		"Orleans, 02 01": 0,
+		"Orleans, 15 01": 0,
+		"Orleans, 15 02": 0,
+		"Orleans, 15 05": 0,
+		"Orleans, 15 06": 0,
+		"Orleans, 15 08": 0,
+		"Orleans, 01 01": 0,
+		"Orleans, 09 28C": 0,
+		"Orleans, 09 25": 0,
+		"Orleans, 09 23": 0,
+		"Orleans, 09 28": 0,
+		"Orleans, 09 26": 0,
+		"Orleans, 09 19": 0,
+		"Orleans, 09 21": 0,
+		"Orleans, 09 15": 0,
+		"Orleans, 09 16": 0,
+		"Orleans, 09 17": 0,
+		"Orleans, 09 12": 0,
+		"Orleans, 09 11": 0,
+		"Orleans, 09 10": 0,
+		"Orleans, 09 09": 0,
+		"Orleans, 09 07": 0,
+		"Orleans, 09 08": 0,
+		"Orleans, 15 09": 0,
+		"Orleans, 15 10": 0,
+		"Orleans, 15 12": 0,
+		"Orleans, 15 15": 0,
+		"Orleans, 15 13": 0,
+		"Orleans, 15 11": 0,
+		"Orleans, 15 12A": 0,
+		"Orleans, 15 13A": 0,
+		"Orleans, 15 13B": 0,
+		"Orleans, 15 14E": 0
+	},
+	"id": "abd723c5",
+	"idColumn": {
+		"key": "Code",
+		"name": "Precinct unique identifier"
+	},
+	"problem": {
+		"name": "Congress",
+		"numberOfParts": 6,
+		"pluralNoun": "Congressional Districts"
+	},
+	"parts": [
+		{
+			"id": 0,
+			"displayNumber": 1,
+			"name": "District 1"
+		},
+		{
+			"id": 1,
+			"displayNumber": 2,
+			"name": "District 2"
+		},
+		{
+			"id": 2,
+			"displayNumber": 3,
+			"name": "District 3"
+		},
+		{
+			"id": 3,
+			"displayNumber": 4,
+			"name": "District 4"
+		},
+		{
+			"id": 4,
+			"displayNumber": 5,
+			"name": "District 5"
+		},
+		{
+			"id": 5,
+			"displayNumber": 6,
+			"name": "District 6"
+		}
+	],
+	"place": {
+		"id": "louisiana",
+		"landmarks": {
+			"type": "geojson",
+			"data": {
+				"type": "FeatureCollection",
+				"features": [
+				]
+			}
+		},
+		"state": "Louisiana"
+	},
+	"placeId": "louisiana",
+	"units": {
+		"id": "precincts",
+		"name": "Precincts",
+		"unitType": "Precincts",
+		"columnSets": [
+			{
+				"type": "population",
+				"name": "Population",
+				"total": {
+					"key": "TOTPOP",
+					"name": "Total population",
+					"sum": 4528798,
+					"min": 0,
+					"max": 8387
+				},
+				"subgroups": [
+					{
+						"key": "NH_WHITE",
+						"name": "White population",
+						"sum": 2733042,
+						"min": 0,
+						"max": 5985
+					},
+					{
+						"key": "NH_BLACK",
+						"name": "Black population",
+						"sum": 1440029,
+						"min": 0,
+						"max": 5122
+					},
+					{
+						"key": "HISP",
+						"name": "Hispanic population",
+						"sum": 192463,
+						"min": 0,
+						"max": 1336
+					},
+					{
+						"key": "NH_ASIAN",
+						"name": "Asian population",
+						"sum": 69135,
+						"min": 0,
+						"max": 1495
+					},
+					{
+						"key": "NH_AMIN",
+						"name": "American Indian population",
+						"sum": 28083,
+						"min": 0,
+						"max": 1050
+					},
+					{
+						"key": "NH_NHPI",
+						"name": "Native Hawaiian and Pacific Islander population",
+						"sum": 1544,
+						"min": 0,
+						"max": 33
+					},
+					{
+						"key": "NH_2MORE",
+						"name": "Two or more races",
+						"sum": 57723,
+						"min": 0,
+						"max": 237
+					},
+					{
+						"key": "NH_OTHER",
+						"name": "Other races",
+						"sum": 6779,
+						"min": 0,
+						"max": 53
+					}
+				]
+			},
+			{
+				"type": "population",
+				"name": "Voting Age Population",
+				"total": {
+					"key": "VAP",
+					"name": "Voting age population",
+					"sum": 3411716,
+					"min": 0,
+					"max": 7934
+				},
+				"subgroups": [
+					{
+						"key": "WVAP",
+						"name": "White voting age population",
+						"sum": 2146116,
+						"min": 0,
+						"max": 5844
+					},
+					{
+						"key": "BVAP",
+						"name": "Black voting age population",
+						"sum": 1017740,
+						"min": 0,
+						"max": 4299
+					},
+					{
+						"key": "HVAP",
+						"name": "Hispanic voting age population",
+						"sum": 138010,
+						"min": 0,
+						"max": 1036
+					},
+					{
+						"key": "AMINVAP",
+						"name": "Native American voting age population",
+						"sum": 19944,
+						"min": 0,
+						"max": 670
+					},
+					{
+						"key": "NHPIVAP",
+						"name": "Native Hawaiian and Pacific Islander voting age population",
+						"sum": 1152,
+						"min": 0,
+						"max": 29
+					},
+					{
+						"key": "ASIANVAP",
+						"name": "Asian voting age population",
+						"sum": 53501,
+						"min": 0,
+						"max": 1329
+					},
+					{
+						"key": "OTHERVAP",
+						"name": "Other races voting age population",
+						"sum": 4526,
+						"min": 0,
+						"max": 34
+					},
+					{
+						"key": "2MOREVAP",
+						"name": "Two or more races voting age population",
+						"sum": 30727,
+						"min": 0,
+						"max": 130
+					}
+				]
+			},
+			{
+				"type": "election",
+				"name": "2016 Presidential",
+				"subgroups": [
+					{
+						"key": "PRES16D",
+						"name": "Democratic",
+						"sum": 778878,
+						"min": 0,
+						"max": 1484
+					},
+					{
+						"key": "PRES16R",
+						"name": "Republican",
+						"sum": 1177979,
+						"min": 0,
+						"max": 1784
+					}
+				],
+				"year": "2016"
+			},
+			{
+				"type": "election",
+				"name": "2016 US Senate run-off",
+				"subgroups": [
+					{
+						"key": "SEN16roD",
+						"name": "Democratic",
+						"sum": 346958,
+						"min": 0,
+						"max": 780
+					},
+					{
+						"key": "SEN16roR",
+						"name": "Republican",
+						"sum": 535756,
+						"min": 0,
+						"max": 1023
+					}
+				],
+				"year": "2016"
+			},
+			{
+				"type": "election",
+				"name": "2018 Secretary of State run-off",
+				"subgroups": [
+					{
+						"key": "SOS18D",
+						"name": "Democratic",
+						"sum": 209585,
+						"min": 0,
+						"max": 592
+					},
+					{
+						"key": "SOS18R",
+						"name": "Republican",
+						"sum": 306306,
+						"min": 0,
+						"max": 800
+					}
+				],
+				"year": "2018"
+			},
+			{
+				"type": "election",
+				"name": "2015 Secretary of State",
+				"subgroups": [
+					{
+						"key": "SOS15D",
+						"name": "Democratic",
+						"sum": 393929,
+						"min": 0,
+						"max": 717
+					},
+					{
+						"key": "SOS15R",
+						"name": "Republican",
+						"sum": 649230,
+						"min": 0,
+						"max": 1155
+					}
+				],
+				"year": "2015"
+			},
+			{
+				"type": "election",
+				"name": "2019 Secretary of State",
+				"subgroups": [
+					{
+						"key": "SOS19D",
+						"name": "Democratic",
+						"sum": 601131,
+						"min": 0,
+						"max": 1264
+					},
+					{
+						"key": "SOS19R",
+						"name": "Republican",
+						"sum": 867590,
+						"min": 0,
+						"max": 1567
+					}
+				],
+				"year": "2019"
+			},
+			{
+				"type": "election",
+				"name": "2019 Attorney General",
+				"subgroups": [
+					{
+						"key": "AG19D",
+						"name": "Democratic",
+						"sum": 436501,
+						"min": 0,
+						"max": 984
+					},
+					{
+						"key": "AG19R",
+						"name": "Republican",
+						"sum": 855335,
+						"min": 0,
+						"max": 1474
+					}
+				],
+				"year": "2019"
+			},
+			{
+				"type": "election",
+				"name": "2019 Treasurer",
+				"subgroups": [
+					{
+						"key": "TRE19pD",
+						"name": "Democratic",
+						"sum": 442748,
+						"min": 0,
+						"max": 944
+					},
+					{
+						"key": "TRE19pR",
+						"name": "Republican",
+						"sum": 769477,
+						"min": 0,
+						"max": 1378
+					},
+					{
+						"key": "TRE19pU",
+						"name": "Unaffiliated",
+						"sum": 69901,
+						"min": 0,
+						"max": 123
+					}
+				],
+				"year": "2019"
+			},
+			{
+				"type": "election",
+				"name": "2016 Dem. Presidential Primary",
+				"subgroups": [
+					{
+						"key": "PRES16pD2",
+						"name": "Clinton",
+						"sum": 221322,
+						"min": 0,
+						"max": 494
+					},
+					{
+						"key": "PRES16pD6",
+						"name": "O'Malley",
+						"sum": 2017,
+						"min": 0,
+						"max": 9
+					},
+					{
+						"key": "PRES16pD7",
+						"name": "Sanders",
+						"sum": 72203,
+						"min": 0,
+						"max": 149
+					}
+				],
+				"year": "2016"
+			},
+			{
+				"type": "election",
+				"name": "2015 Governor",
+				"subgroups": [
+					{
+						"key": "GOV15D",
+						"name": "Democratic",
+						"sum": 646075,
+						"min": 0,
+						"max": 1001
+					},
+					{
+						"key": "GOV15R",
+						"name": "Republican",
+						"sum": 505694,
+						"min": 0,
+						"max": 960
+					}
+				],
+				"year": "2015"
+			},
+			{
+				"type": "election",
+				"name": "2019 Governor",
+				"subgroups": [
+					{
+						"key": "GOV19D",
+						"name": "Democratic",
+						"sum": 774502,
+						"min": 0,
+						"max": 1634
+					},
+					{
+						"key": "GOV19R",
+						"name": "Republican",
+						"sum": 734275,
+						"min": 0,
+						"max": 1300
+					}
+				],
+				"year": "2019"
+			},
+			{
+				"type": "election",
+				"name": "2019 Lieutenant Governor",
+				"subgroups": [
+					{
+						"key": "LG19D",
+						"name": "Democratic",
+						"sum": 413577,
+						"min": 0,
+						"max": 865
+					},
+					{
+						"key": "LG19R",
+						"name": "Republican",
+						"sum": 884314,
+						"min": 0,
+						"max": 1603
+					}
+				],
+				"year": "2019"
+			},
+			{
+				"type": "election",
+				"name": "2017 Treasurer",
+				"subgroups": [
+					{
+						"key": "TRE17D",
+						"name": "Democratic",
+						"sum": 165061,
+						"min": 0,
+						"max": 607
+					},
+					{
+						"key": "TRE17R",
+						"name": "Republican",
+						"sum": 207986,
+						"min": 0,
+						"max": 454
+					}
+				],
+				"year": "2017"
+			}
+		],
+		"idColumn": {
+			"name": "Precinct unique identifier",
+			"key": "Code"
+		},
+		"bounds": [
+			[
+				-94.0434,
+				28.8551
+			],
+			[
+				-88.7584,
+				33.0195
+			]
+		],
+		"tilesets": [
+			{
+				"type": "circle",
+				"source": {
+					"type": "vector",
+					"url": "mapbox://districtr.louisiana_precincts_points"
+				},
+				"sourceLayer": "louisiana_precincts_points"
+			},
+			{
+				"type": "fill",
+				"source": {
+					"type": "vector",
+					"url": "mapbox://districtr.louisiana_precincts"
+				},
+				"sourceLayer": "louisiana_precincts"
+			}
+		]
+	}
+}

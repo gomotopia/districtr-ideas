@@ -41,4 +41,4 @@ Compare with [Districtr PlanLoader object](https://github.com/districtr/district
 * **"placeid"**
 	* `"placeid": "louisiana"`
 * **"units"**
-	* Loads state precint tileset from vis a vis mapbox. Also contains state level stats under `columnSets`.
+	* Loads state precint tileset from vis a vis mapbox. Contains `columnSets`, which stores state level stats and is not required.
