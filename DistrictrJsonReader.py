@@ -72,8 +72,11 @@ class DistrictrJson:
             newData.update(LA.IDCOLUMN)
             newData.update(LA.PLACE)
             newData.update(LA.PLACEID)
+            newData["problem"] = {}
+            newData["assignment"] = {}
             
         self._data = newData
+        print(self._data)
         self.setProblem(title, unitsplural)
     
     def getAssignment(self):
@@ -158,6 +161,8 @@ class DistrictrJson:
     
         with open(outfile, 'w') as outf:
             json.dump(datawrite, outf)
+
+
 
 if __name__ == "__main__":
     #Write Tests Here
