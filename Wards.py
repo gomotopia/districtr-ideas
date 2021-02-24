@@ -24,7 +24,7 @@ def Wards():
                         "Wards of New Orleans",
                         "Ward",
                         "Wards",
-                        oldfile='Orleans-LA.json',
+                        oldfile='Data/Orleans-LA.json',
                         ordinalnames=True)
     oldassignment = WardsObject.getAssignment()
     wardstrings = list(oldassignment.keys())
@@ -33,7 +33,7 @@ def Wards():
     newAssignment = {x:int(re.search("(?<=Orleans, )\d\d", x).group())-1 for x in list(wardstrings)}  
     
     WardsObject.setAssignment(newAssignment)
-    WardsObject.write('Orleans-LA-Wards.jsonraw')
+    WardsObject.write('Generated/Orleans-LA-Wards.jsonraw')
     
 if __name__ == "__main__":
     Wards()

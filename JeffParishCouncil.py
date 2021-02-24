@@ -1,6 +1,8 @@
 '''
 Jefferson Parish Council Districts
 
+Districtr Idea 2.0
+
 This was my attempt to generate a Districtr JSON file from scratch, rather than
 extract off of an old file. I generated the assignments using the code found in 
 Section 2.02 of Jefferson Parish Code of Ordinances.
@@ -67,7 +69,7 @@ def JeffCouncil():
         Jefferson-LA-Council.jsonraw is the generated copy.
         Jefferson-LA-Council.json is the hand corrected copy.
     '''
-    with open('Jefferson-Council-Law.txt') as f:
+    with open('Data/Jefferson-Council-Law.txt') as f:
         lawstrings = f.readlines()
         lawstrings = [x.strip() for x in lawstrings]
         
@@ -81,7 +83,7 @@ def JeffCouncil():
 
     JeffJson = DistrictrJson("Jefferson Parish Council District", "District", "Districts")
     JeffJson.setAssignment(newAssign)
-    JeffJson.write('Jefferson-LA-Council.jsonraw')
+    JeffJson.write('Generated/Jefferson-LA-Council.jsonraw')
 
 if __name__ == "__main__":
     JeffCouncil()

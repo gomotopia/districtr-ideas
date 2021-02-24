@@ -136,7 +136,7 @@ class DistrictrJson:
             elif (custom):
                 partDict["name"] = custom[part]
             else:
-                partDict["name"] = f"{self._unit} {part}"
+                partDict["name"] = f"{self._unit} {part+1}"
             newParts.append(partDict)
         self._data["parts"] = newParts
     
