@@ -6,6 +6,7 @@ Future: a D3 optimized file, script, generated here.
 '''
 
 import pandas as pd
+from pygments.unistring import Cf
 
 labels = ['Name','Throwaway',
           'Tot_Tot','Tot_W','Tot_B','Tot_O',
@@ -44,24 +45,96 @@ def ParseRegistrationStats():
     
     for (id, parish) in parishes:
         sheet = id-1
-        print(id, parish.upper(), str(id).zfill(2))
-        pF= pd.read_excel(io=file_name, sheet_name=sheet, skiprows=8, names=labels)
+        pF= pd.read_excel(io=file_name, sheet_name=sheet, skiprows=8, names=labels,
+                          thousands=',')
         pF.Name = pF.Name.str.replace('\xa0', ' ')
-        
         totF = pF.loc[pF['Name'].str.endswith(f'PAR {str(id).zfill(2)}')]
         cdF = pF.loc[pF['Name'].str.endswith('CONG 02')]
-        
-        print (cdF)
         fullTable = fullTable.append(totF).append(cdF)
         
     fullTable = fullTable.drop(columns=['Throwaway'])
-    print(fullTable.head(5))
     return fullTable
 
-def 
+def AnalyzeResults(fullTable):
+    '''
+        A congressional district overlays on top of multiple parishes. 
+        Thus, each parish can be considered within and without a certain 
+        district.
+        
+        Let A = {A | A is in minority group}
+        Let D = {D | D is covered within relevant district}
+        Let P = {P | P is everyone in the Parish}
+        
+        D and P are subsets of P.
+        
+        What percentage of group A inside a parish is covered in the congressional
+        district? (A and P) / P
+        
+        What percentage of the congressional district comprises of group A?
+        (A and P) / A
 
+        Sample Data:
+        Ascension...
+        
+        83,553 Total
+        13,722 Total CD
+        19,441 Total Black
+         9,146 Total Black in CD
+        27,985 Total Dems
+         8,866 Total Dems in CD
+           .66 CD is B 9.1k/14k
+           .46 B in CD 9.1k/19k
+           .63 CD is Dem 8.9k/14k
+           .31 Dem in CD 8.9k/28k
+           
+           Also?
+        
+        14,997 Total Black Dems
+         7,322 Total Black Dems in CD
+   
+        14,997/19,441 77% of Blacks are Dems 
+        14,997/27,985 56% of Dems are Black
+        
+        435/19,441 2.2% of Blacks are Repubs
+    '''
 
+    labels = ["Tot_Tot", "Tot_CD",
+              "Tot_B", "Tot_B_CD",
+              "Tot_Dem", "Tot_Dem_CD",
+              "CD_is_B", "B_in_CD",
+              "CD_is_Dem", "Dem_in_CD"]
+
+    analyzedTable = pd.DataFrame(columns=labels)
+
+    for (id, parish) in parishes:
+        idStr = str(id).zfill(2)
+        pF = fullTable.loc[fullTable['Name'].str.endswith(f'PAR {idStr}')].iloc[0]
+        cdF = fullTable.loc[fullTable['Name'].str.startswith(f'PAR {idStr}')].iloc[0]
+        pLine = pd.DataFrame([{"Parish": idStr,
+                               "Tot_Tot":pF['Tot_Tot'],
+                               "Tot_CD":cdF['Tot_Tot'],
+                               "Tot_B":pF['Tot_B'],
+                               "Tot_B_CD":cdF['Tot_B'],
+                               "Tot_Dem":pF['Tot_Dem'],
+                               "Tot_Dem_CD":cdF['Tot_Dem'],
+                               "CD_is_B": cdF['Tot_B']/cdF['Tot_Tot'],
+                               "B_in_CD": cdF['Tot_B']/pF['Tot_B'],
+                               "CD_is_Dem": cdF['Tot_Dem']/cdF['Tot_Tot'],
+                               "Dem_in_CD": cdF['Tot_Dem']/pF['Tot_Dem']}])      
+        analyzedTable = analyzedTable.append(pLine)     
+    
+    sumLine = analyzedTable.sum()
+    sumLine['CD_is_B'] = sumLine['Tot_B_CD']/sumLine['Tot_CD']
+    sumLine['B_in_CD'] = sumLine['Tot_B_CD']/sumLine['Tot_B']
+    sumLine['CD_is_Dem'] = sumLine['Tot_Dem_CD']/sumLine['Tot_CD']
+    sumLine['Dem_in_CD'] = sumLine['Tot_Dem_CD']/sumLine['Tot_Dem']
+    sumLine['Parish'] = 'Sum'
+    
+    analyzedTable = analyzedTable.append(sumLine, ignore_index=True)
+    return analyzedTable
+    
 if __name__ == "__main__":
     fullTable = ParseRegistrationStats()
-    analyzedTable = AnalyzeResults()
-    WriteSVG(analyzedTable)
+    analyzedTable = AnalyzeResults(fullTable)
+    print(analyzedTable)
+    # WriteSVG(analyzedTable)
